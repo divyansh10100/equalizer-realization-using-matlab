@@ -24,7 +24,7 @@ FIR filters have several advantages over IIR filters, including stability, linea
 
 
 ### IIR Filters
-IIR filters, on the other hand, use feedback in their design and have an infinite impulse response. The feedback loop in the filter allows it to have a smaller number of coefficients compared to FIR filters, making them computationally efficient. The impulse response of an IIR filter is infinite, but the magnitude of the impulse response decreases exponentially as time goes on.
+IIR filters, use feedback in their design and have an infinite impulse response. The feedback loop in the filter allows it to have a smaller number of coefficients compared to FIR filters, making them computationally efficient. The impulse response of an IIR filter is infinite, but the magnitude of the impulse response decreases exponentially as time goes on.
 
 IIR filters are commonly used in applications where low computational resources are available, such as embedded systems. However, they can be unstable and exhibit nonlinear phase response, which can distort the output signal. IIR filters are used in applications such as speech and image processing, where phase distortion is acceptable.
 
