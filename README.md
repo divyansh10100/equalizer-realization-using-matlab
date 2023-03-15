@@ -22,6 +22,7 @@ FIR filters are digital filters that use a finite number of coefficients to crea
 
 FIR filters have several advantages over IIR filters, including stability, linear phase response, and the ability to achieve a sharp cutoff frequency. They are also easy to design and implement. FIR filters are widely used in audio and image processing applications, where a linear phase response is essential to preserve the signal's time-domain characteristics.
 
+
 ### IIR Filters
 IIR filters, on the other hand, use feedback in their design and have an infinite impulse response. The feedback loop in the filter allows it to have a smaller number of coefficients compared to FIR filters, making them computationally efficient. The impulse response of an IIR filter is infinite, but the magnitude of the impulse response decreases exponentially as time goes on.
 
@@ -49,6 +50,7 @@ The script uses the filter() function to apply each filter to the input audio da
 The script also calls a function called analyseFilter() to analyze and plot the frequency spectrum of each filtered output. This function uses the MATLAB fft() function to calculate the frequency spectrum and then plots the result using MATLAB's built-in plot() function.
 
 To use this script, you need to have MATLAB installed on your computer, and the filters used in the script must be stored in a separate file called "filters.mat" in the same directory as the script. You also need to have an audio file in the .wav format that you want to filter. When you run the script, it will prompt you to select the audio file and enter the gain for each frequency band.
+
 ### Usage
 [Screencast from 2023-03-15 01-58-03.webm](https://user-images.githubusercontent.com/77502911/225208796-3c9de521-8c71-4898-bb99-934edd629a0d.webm)
 
@@ -89,15 +91,36 @@ This project implements an audio equalizer using MATLAB, which can be used to mo
 
 https://user-images.githubusercontent.com/77502911/225213128-31ec8838-19ec-486a-94fa-01e43e98e073.mp4
 
-### Generated audio with IIR filter
+### Generated audio with IIR filter(sampling rate - 10000) 
 
 https://user-images.githubusercontent.com/77502911/225213399-f4c11764-09ef-4385-9a61-8493cb38fb09.mp4
 
-### Generated audio with FIR filter
+### Generated audio with FIR filter(sampling rate - 10000) 
 
 https://user-images.githubusercontent.com/77502911/225213477-70d99f2e-704a-440a-b978-70fd71db4010.mp4
 
 ## Plots
+Plots with magnitude and phase spectrum for the above sample audio file:
+IIR filter Implementation-
+_0-170hz_
+![0-170hz](https://user-images.githubusercontent.com/77502911/225215824-29716ff3-2003-41f3-83df-a675c39e4458.jpg)
+![170-310hz](https://user-images.githubusercontent.com/77502911/225216034-35f7157d-0ed9-4769-a97d-df8e4131419d.jpg)
+![310-600hz](https://user-images.githubusercontent.com/77502911/225216066-a37ccb3f-8846-479a-a99c-75d985036942.jpg)
+![600-1000hz](https://user-images.githubusercontent.com/77502911/225216081-92510723-f8c2-43b7-bd6d-84d7f126842a.jpg)
+![1-3khz](https://user-images.githubusercontent.com/77502911/225215839-0e444461-82c8-4835-9202-28243484de79.jpg)
+![3-6khz](https://user-images.githubusercontent.com/77502911/225215857-ca514a57-64f0-446a-a588-f2bbf3f982fe.jpg)
+![6-12khz](https://user-images.githubusercontent.com/77502911/225215971-15665cc4-1250-488f-814e-262e1dfd689c.jpg)
+![12-14khz](https://user-images.githubusercontent.com/77502911/225215994-0ca89106-aab1-410d-897c-eab3979872ce.jpg)
+![14-16khz](https://user-images.githubusercontent.com/77502911/225216012-03b03ac1-6494-4a66-b2b1-f0284f76bdc4.jpg)
+![composite signal](https://user-images.githubusercontent.com/77502911/225216093-a47d38b3-4334-4636-b294-8b4ecbed11ba.jpg)
+![double sampling](https://user-images.githubusercontent.com/77502911/225216102-0eadbde7-a590-4ac2-9eed-f2326ca36334.jpg)
+![half sampling](https://user-images.githubusercontent.com/77502911/225216115-104953c1-beb7-4714-9e55-2cd4e9f7bb95.jpg)
+
+
+
+
+
+
 
 
 
