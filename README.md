@@ -52,8 +52,7 @@ The script also calls a function called analyseFilter() to analyze and plot the 
 To use this script, you need to have MATLAB installed on your computer, and the filters used in the script must be stored in a separate file called "filters.mat" in the same directory as the script. You also need to have an audio file in the .wav format that you want to filter. When you run the script, it will prompt you to select the audio file and enter the gain for each frequency band.
 
 ### Usage
-[Screencast from 2023-03-15 01-58-03.webm](https://user-images.githubusercontent.com/77502911/225208796-3c9de521-8c71-4898-bb99-934edd629a0d.webm)
-
+https://user-images.githubusercontent.com/77502911/225251804-cb61b393-969f-4982-abbc-b33a78f3d44c.mp4
 
 ### How to use in your PC
 
