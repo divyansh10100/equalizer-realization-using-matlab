@@ -140,42 +140,42 @@ Plots with magnitude and phase spectrum for the above sample audio file:
 
 
 ### FIR filter Implementation-
+`0-170hz`
 
 ![0-170hz](https://user-images.githubusercontent.com/77502911/225216964-95aebc5f-c69a-4793-99ef-77826caa7ade.jpg)
 
-`0-170hz`
+`170-310hz`
 
 ![1-3khz](https://user-images.githubusercontent.com/77502911/225216980-8b69425e-4455-4835-96e9-cf7edad7571b.jpg)
 
-`170-310hz`
+`310-600hz`
 
 ![3-6khz](https://user-images.githubusercontent.com/77502911/225217019-fb16bc96-76b5-40e7-8306-f06a0421eb9f.jpg)
 
-`310-600hz`
+`600-1000hz`
 
 ![6-12khz](https://user-images.githubusercontent.com/77502911/225217024-e055b1ef-39ab-4bcf-88a7-d53a18f3e65e.jpg)
 
-`600-1000hz`
+`1-3khz`
 
 ![12-14khz](https://user-images.githubusercontent.com/77502911/225217040-f5021ad3-553d-4017-b95f-a085477a0afe.jpg)
 
-`1-3khz`
+`3-6khz`
 
 ![14-16khz](https://user-images.githubusercontent.com/77502911/225217049-06e30f43-5e43-4981-ad77-4429be2c11e2.jpg)
 
-`3-6khz`
+`6-12khz`
 
 ![170-310hz](https://user-images.githubusercontent.com/77502911/225217061-65a1d3cf-1d91-4dbe-bc0d-becb92cee640.jpg)
 
-`6-12khz`
+`12-14khz`
 
 ![310-600hz](https://user-images.githubusercontent.com/77502911/225217071-9dc2a168-a9b7-4300-a434-5861aca0ec66.jpg)
 
-`12-14khz`
+`14-16khz`
 
 ![600-1000hz](https://user-images.githubusercontent.com/77502911/225217090-afd5bc8b-b28f-4dc8-a950-e333249c55d7.jpg)
 
-`14-16khz`
 
 
 
