@@ -85,15 +85,15 @@ This project implements an audio equalizer using MATLAB, which can be used to mo
 
 https://user-images.githubusercontent.com/77502911/225213128-31ec8838-19ec-486a-94fa-01e43e98e073.mp4
 
-### Generated file with IIR filter
+### Generated audio with IIR filter
 
 https://user-images.githubusercontent.com/77502911/225213399-f4c11764-09ef-4385-9a61-8493cb38fb09.mp4
 
-### Generated file with FIR filter
+### Generated audio with FIR filter
 
 https://user-images.githubusercontent.com/77502911/225213477-70d99f2e-704a-440a-b978-70fd71db4010.mp4
 
-
+## Plots
 
 
 
