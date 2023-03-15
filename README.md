@@ -13,24 +13,24 @@ In audio equalization, a common approach is to use a parametric equalizer, which
 
 In summary, audio equalization involves manipulating the frequency response curve of an audio signal by applying filters that allow or block certain frequency components. A parametric equalizer uses several band-pass filters that can be adjusted to target specific frequency ranges.
 
-# FIR Filters
+### FIR Filters
 FIR filters are digital filters that use a finite number of coefficients to create a convolution sum. The coefficients determine the impulse response of the filter, which is the output when a unit impulse is applied to the input. The filter output is obtained by convolving the input signal with the impulse response.
 
 FIR filters have several advantages over IIR filters, including stability, linear phase response, and the ability to achieve a sharp cutoff frequency. They are also easy to design and implement. FIR filters are widely used in audio and image processing applications, where a linear phase response is essential to preserve the signal's time-domain characteristics.
 
-# IIR Filters
+### IIR Filters
 IIR filters, on the other hand, use feedback in their design and have an infinite impulse response. The feedback loop in the filter allows it to have a smaller number of coefficients compared to FIR filters, making them computationally efficient. The impulse response of an IIR filter is infinite, but the magnitude of the impulse response decreases exponentially as time goes on.
 
 IIR filters are commonly used in applications where low computational resources are available, such as embedded systems. However, they can be unstable and exhibit nonlinear phase response, which can distort the output signal. IIR filters are used in applications such as speech and image processing, where phase distortion is acceptable.
 
-# FFT
+### FFT
 Fast Fourier Transform (FFT) is a widely used algorithm for signal processing that allows us to efficiently compute the Discrete Fourier Transform (DFT) of a signal. The DFT is a mathematical tool used to convert a signal from the time domain to the frequency domain. It is a fundamental concept in signal processing, as many signals of interest, such as audio and video signals, are analyzed in the frequency domain.
 
 The FFT algorithm was first described by Cooley and Tukey in 1965, and it is based on the idea of decimation in time. The algorithm reduces the number of computations required to compute the DFT from O(N^2) to O(N log N), where N is the number of samples in the input signal. This makes it possible to compute the DFT in real-time, even for large signals.
 
 The FFT algorithm is implemented in many programming languages, including MATLAB. In MATLAB, the fft function is used to compute the FFT of a signal. The function takes a time-domain signal as input and returns the corresponding frequency-domain signal. The output is a complex vector containing the amplitudes and phases of the signal's frequency components.
 
-# Sampling
+### Sampling
 Sampling is the process of converting a continuous-time signal into a discrete-time signal by taking samples at regular intervals. The purpose of sampling is to enable the processing and transmission of signals using digital techniques.
 
 In practical systems, signals are often sampled at a rate that is higher than the minimum required by the Nyquist-Shannon sampling theorem. This is to ensure that the signal is accurately represented in the digital domain, and to provide some margin of error for the effects of quantization and noise. The rate at which a signal is sampled is known as the sampling rate, and is usually expressed in units of samples per second (Hz).
@@ -49,17 +49,21 @@ To use this script, you need to have MATLAB installed on your computer, and the 
 [Screencast from 2023-03-15 01-58-03.webm](https://user-images.githubusercontent.com/77502911/225208796-3c9de521-8c71-4898-bb99-934edd629a0d.webm)
 
 `How to use in your PC`
+
 This project implements an audio equalizer using MATLAB, which can be used to modify the gain of various frequency bands in an audio signal. The equalizer consists of several filters, each with its own frequency response characteristics. The user can select the type of filter, gain for each frequency band, and output sampling rate.
 
 *Prerequisites*
+
 MATLAB 2018b or later
 An audio file in .wav format
 
 *Getting Started*
 Clone the repository:
+
 `git clone https://github.com/divyansh10100/equalizer-realization-using-matlab.git`
 
 Load the filters into the workspace by navigating to the project location and running:
+
 `load('filters.mat')`
 
 > Launch the application by running app.m in MATLAB.
