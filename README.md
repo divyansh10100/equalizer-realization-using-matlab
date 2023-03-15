@@ -1,5 +1,6 @@
 # equalizer-realization-using-matlab
-![david-james-TuYpz74tv_o-unsplash](https://user-images.githubusercontent.com/77502911/225214680-0db98a7a-7984-41aa-9b70-562e33adb28f.jpg)
+![Screenshot from 2023-03-15 10-51-58](https://user-images.githubusercontent.com/77502911/225214958-30a9d21d-fe06-4af6-9fe8-c631515ad141.png)
+
 
 
 This project involves designing and implementing an audio equalizer using MATLAB. An audio equalizer is a tool used to adjust the balance of different frequency components in an audio signal.
