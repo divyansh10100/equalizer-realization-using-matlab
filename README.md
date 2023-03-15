@@ -9,3 +9,4 @@ The script uses the filter() function to apply each filter to the input audio da
 The script also calls a function called analyseFilter() to analyze and plot the frequency spectrum of each filtered output. This function uses the MATLAB fft() function to calculate the frequency spectrum and then plots the result using MATLAB's built-in plot() function.
 
 To use this script, you need to have MATLAB installed on your computer, and the filters used in the script must be stored in a separate file called "filters.mat" in the same directory as the script. You also need to have an audio file in the .wav format that you want to filter. When you run the script, it will prompt you to select the audio file and enter the gain for each frequency band.
+ /home/divyanshpandey/Downloads/Audio-Equalizer-Using-Matlab-main/YouTube-intro-music-30-sec-_no-copyright_.wav
