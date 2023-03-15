@@ -102,19 +102,43 @@ https://user-images.githubusercontent.com/77502911/225213477-70d99f2e-704a-440a-
 ## Plots
 Plots with magnitude and phase spectrum for the above sample audio file:
 IIR filter Implementation-
-_0-170hz_
+
+`0-170hz`
 ![0-170hz](https://user-images.githubusercontent.com/77502911/225215824-29716ff3-2003-41f3-83df-a675c39e4458.jpg)
+
+`170-310hz`
+
 ![170-310hz](https://user-images.githubusercontent.com/77502911/225216034-35f7157d-0ed9-4769-a97d-df8e4131419d.jpg)
+
+`310-600hz`
+
 ![310-600hz](https://user-images.githubusercontent.com/77502911/225216066-a37ccb3f-8846-479a-a99c-75d985036942.jpg)
+
+`600-1000hz`
+
 ![600-1000hz](https://user-images.githubusercontent.com/77502911/225216081-92510723-f8c2-43b7-bd6d-84d7f126842a.jpg)
+
+`1-3khz`
+
 ![1-3khz](https://user-images.githubusercontent.com/77502911/225215839-0e444461-82c8-4835-9202-28243484de79.jpg)
+
+`3-6khz`
+
 ![3-6khz](https://user-images.githubusercontent.com/77502911/225215857-ca514a57-64f0-446a-a588-f2bbf3f982fe.jpg)
+
+`6-12khz`
+
 ![6-12khz](https://user-images.githubusercontent.com/77502911/225215971-15665cc4-1250-488f-814e-262e1dfd689c.jpg)
+
+`12-14khz`
+
 ![12-14khz](https://user-images.githubusercontent.com/77502911/225215994-0ca89106-aab1-410d-897c-eab3979872ce.jpg)
+
+`14-16khz`
+
 ![14-16khz](https://user-images.githubusercontent.com/77502911/225216012-03b03ac1-6494-4a66-b2b1-f0284f76bdc4.jpg)
-![composite signal](https://user-images.githubusercontent.com/77502911/225216093-a47d38b3-4334-4636-b294-8b4ecbed11ba.jpg)
-![double sampling](https://user-images.githubusercontent.com/77502911/225216102-0eadbde7-a590-4ac2-9eed-f2326ca36334.jpg)
-![half sampling](https://user-images.githubusercontent.com/77502911/225216115-104953c1-beb7-4714-9e55-2cd4e9f7bb95.jpg)
+
+
 
 
 
