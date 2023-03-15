@@ -81,4 +81,17 @@ This project implements an audio equalizer using MATLAB, which can be used to mo
 - Preview of each filter's effect on the input signal.
 - Output signal at user-specified sampling rate.
 
-## Screenshots
+### Sample Audio file
+
+
+
+
+
+
+
+
+
+
+
+
+
