@@ -48,21 +48,22 @@ To use this script, you need to have MATLAB installed on your computer, and the 
 ### Usage
 [Screencast from 2023-03-15 01-58-03.webm](https://user-images.githubusercontent.com/77502911/225208796-3c9de521-8c71-4898-bb99-934edd629a0d.webm)
 
-`How to use in your PC`
+
+### How to use in your PC
 
 This project implements an audio equalizer using MATLAB, which can be used to modify the gain of various frequency bands in an audio signal. The equalizer consists of several filters, each with its own frequency response characteristics. The user can select the type of filter, gain for each frequency band, and output sampling rate.
 
 *Prerequisites*
 
-MATLAB 2018b or later
-An audio file in .wav format
+> MATLAB 2018b or later
+> An audio file in .wav format
 
-*Getting Started*
-Clone the repository:
+### Getting Started
+> Clone the repository:
 
 `git clone https://github.com/divyansh10100/equalizer-realization-using-matlab.git`
 
-Load the filters into the workspace by navigating to the project location and running:
+> Load the filters into the workspace by navigating to the project location and running:
 
 `load('filters.mat')`
 
