@@ -264,7 +264,6 @@ end
     
 % filters' analysis function
 function analyze(type)
-    cd 'W:\Projects\Digital Signal Processing\Audio_equalizer_using_matlab'
     load('filters.mat');
     
     if type == 'IIR'
